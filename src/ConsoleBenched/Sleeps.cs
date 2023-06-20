@@ -1,5 +1,3 @@
-
-
 using BenchmarkDotNet.Attributes;
 
 public class Sleeps

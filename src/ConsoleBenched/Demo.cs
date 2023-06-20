@@ -4,7 +4,7 @@ using BenchmarkDotNet.Attributes;
 [MemoryDiagnoser]
 public class Demo
 {
-    [Benchmark]
+    [Benchmark(Baseline =true)]
     public string GetFullStringDefault()
     {
         string output = "";
